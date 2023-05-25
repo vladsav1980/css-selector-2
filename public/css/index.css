@@ -79,11 +79,13 @@
   background: red;
 }
 
-.lesson-four-task-nineteen .btn-group:focus-within {
+.lesson-four-task-nineteen
+  .btn-group:focus-within
+  button:focus {
   color: white;
   background: yellow;
 }
 
-.lesson-four-task-twenty form:invalid {
+.lesson-four-task-twenty form input:invalid {
   background: red;
 }
